@@ -2,6 +2,8 @@ package com.indianstatescensusanalyser;
 
 import com.opencsv.bean.CsvBindByName;
 
+// UC1-Ability for the analyser to load the Indian States Census Information from a csv file
+
 public class IndiaCensusCSV {
 
     @CsvBindByName(column = "State", required = true)

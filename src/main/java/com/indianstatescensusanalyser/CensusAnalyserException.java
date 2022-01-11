@@ -1,5 +1,7 @@
 package com.indianstatescensusanalyser;
 
+// UC1-Ability for the analyser to load the Indian States Census Information from a csv file
+
 public class CensusAnalyserException extends Exception {
 
     enum ExceptionType {
